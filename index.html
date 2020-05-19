@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ch">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>手势解锁</title>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <style type="text/css">
+        body{
+            text-align: center;
+            background: #305066;
+        }
+        h4{
+            color: #22C3AA;
+        }
+        @keyframes no {
+            0%{ transform: translateX(0)}
+            20%{transform: translateX(-20px)}
+            40%{transform: translateX(20px)}
+            60%{transform: translateX(-10px)}
+            80%{transform: translateX(10px)}
+            100%{transform: translateX(0)}
+        }
+        .on{
+            transition: all 1s;
+            margin-top: 300px;
+            font-size: 80px;
+            width: 100%;
+            opacity: 0;
+        }
+    </style>
 </head>
 <body>
-    123456
-    456465465
-    login
+    <script type="text/javascript" src="1.js"></script>
+    <script type="text/javascript">
+        new canvasLock({chooseType:3}).init();
+    </script>
 </body>
 </html>
